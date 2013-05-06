@@ -1,3 +1,3 @@
 Android
 =======
-Hello World
+This is my first App for Android - Calculator.
