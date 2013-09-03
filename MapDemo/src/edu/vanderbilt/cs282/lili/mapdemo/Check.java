@@ -8,7 +8,7 @@ import android.content.pm.ResolveInfo;
 import android.widget.EditText;
 
 public class Check {
-	private static String numMatch = "[+-]?\\d*(\\.\\d+)?";
+	private static String numMatch = "[+-]?\\d+(\\.\\d+)?";
 
 	public static boolean checkLatitude(String latitude) {
 		if (latitude != null && !latitude.equals("") && latitude.matches(numMatch)) {
